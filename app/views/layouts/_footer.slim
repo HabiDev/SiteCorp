@@ -1,0 +1,72 @@
+.footer
+  .footer_top
+    .container
+      .row
+        .col-xl-3.col-md-4
+          .footer_widget
+            .footer_logo
+              = link_to root_path
+                = image_tag('footer_logo1.png')
+            p
+              = link_to "mail@make-retail.ru", "#"
+              br
+              | +7 9272 00 00 00
+              br
+              | г.Казань, ул.Пушкина, д.123, офис 343
+            / .socail_links
+            /   ul
+            /     li
+            /       = link_to "#"                    
+            /         i.fa-brands.fa-facebook-f
+            /     li
+            /       = link_to "#"                    
+            /         i.fa-brands.fa-twitter
+            /     li
+            /       = link_to "#"                    
+            /         i.fa-brands.fa-instagram                       
+        .col-xl-2.col-md-4
+          .footer_widget
+            h3.footer_title
+              | Услуги
+            ul
+              li
+                = link_to "Бизнес под ключ", service_path
+              li
+                = link_to "Адаптация бизнеса", service_adaptation_path
+              li
+                = link_to "Консалтинг", service_consalting_path
+        .col-xl-2.col-md-4
+          .footer_widget
+            h3.footer_title
+              | Полезные ссылки
+            ul
+              li
+                = link_to "Главная", root_path
+              li
+                = link_to "О нас", about_path
+              li
+                = link_to "Контакты", contact_path
+
+        .col-xl-4.col-md-4
+          .footer_widget
+            h3.footer_title
+              | Подписаться
+            form[action="#" class="newsletter_form"]
+              input[type="text" placeholder="Введите ваш e-mail"]
+              button[type="submit"]
+                | Подписаться
+            p.newsletter_text
+              
+  .copy-right_text
+    .container
+      .footer_border
+      .row
+        .col-xl-12
+          p.copy_right.text-center
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            | Copyright &copy; 2023 All rights reserved | This template is made with 
+            i.fa-regular.fa-heart[aria-hidden="true"] 
+            |   by 
+            = link_to "Colorlib", "https://colorlib.com", target: "_blank"
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        

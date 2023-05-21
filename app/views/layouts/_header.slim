@@ -1,0 +1,54 @@
+.header-area
+  .header-top_area.d-none.d-lg-block
+    .container
+      .row
+        .col-xl-5.col-md-5
+          .header_left
+          p
+            | Добро пожаловать в консалтинговую службу
+        .col-xl-7.col-md-7
+          .header_right.d-flex
+            .short_contact_list
+              ul
+                li
+                  = link_to "#" 
+                    i.fa-solid.fa-envelope 
+                    | mail@make-retail.ru       
+                li
+                  = link_to "#"
+                    i.fa-solid.fa-phone
+                    | +7 9272 00 00 00
+            / .social_media_links
+            /   = link_to "#"
+            /     i.fa-brands.fa-linkedin-in
+            /   = link_to "#"
+            /     i.fa-brands.fa-facebook-f
+            /   = link_to "#"
+            /     i.fa-brands.fa-google-plus-g
+  #sticky-header.main-header-area
+    .container
+      .header_bottom_border
+        .row.align-items-center
+          .col-xl-3.col-lg-2
+            .logo
+              = link_to root_path do
+                = image_tag "logo1.png"
+          .col-xl-6.col-lg-7
+            .main-menu.d-none.d-lg-block
+              nav
+                ul#navigation
+                  li
+                    = link_to "Главная", root_path
+                  li
+                    = link_to "Услуги", root_path(anchor: 'service_start')
+                  li
+                    = link_to "О нас", about_path
+                  li
+                    = link_to "Контакты", contact_path
+          .col-xl-3.col-lg-3.d-none.d-lg-block
+            .Appointment
+              .book_btn.d-none.d-lg-block
+                = link_to "Получить предложение", root_path(anchor: 'contact_form')
+              
+          .col-12
+            .mobile_menu.d-block.d-lg-none

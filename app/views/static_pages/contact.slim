@@ -1,0 +1,62 @@
+.bradcam_area.bradcam_area_page.bradcam_bg_1
+  .container
+    .row
+      .col-xl-12
+        .bradcam_text
+          h3
+            | Контакты
+section.contact-section
+  .container
+    .d-none.d-sm-block
+    .row
+      .col-12
+        h2.contact-title
+          | Ваше обращение
+      .col-lg-8
+        form#contactForm.form-contact.contact_form[action="contact_process.php" method="post" novalidate="novalidate"]
+          .row
+            .col-sm-6
+              .form-group
+                input#name.form-control.valid[name="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ваше имя'" placeholder="Ваше имя"]
+            .col-sm-6
+              .form-group
+                input#email.form-control.valid[name="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email для связи'" placeholder="Email для связи"]
+            .col-12
+              .form-group
+                input#subject.form-control[name="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Тема сообщения'" placeholder="Тема сообщения"]
+            .col-12
+              .form-group
+                textarea#message.form-control.w-100[name="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Текст сообщения'" placeholder="Текст сообщения"]
+          
+          .form-group.mt-3
+            button.button.button-contactForm.boxed-btn[type="submit"]
+              | Отправить
+      .col-lg-3.offset-lg-1
+        .media.contact-info
+          span.contact-info__icon
+            i.ti-home
+          .media-body
+            h3
+              | Россия,
+              br 
+              | Республика Татарстан
+            p
+              | г. Казань, ул. Пушкина, д.123, офис 343
+        .media.contact-info
+          span.contact-info__icon
+            i.ti-tablet
+          .media-body
+            h3
+              |  +7 9272 00 00 00
+            p
+              | Пондельник-Пятница
+              br
+              | с 9:00 до 18:00
+        .media.contact-info
+          span.contact-info__icon
+            i.ti-email
+          .media-body
+            h3
+              | mail@make-retail.ru
+            p
+              | Отправьляйте нам свой запрос в любое время!
