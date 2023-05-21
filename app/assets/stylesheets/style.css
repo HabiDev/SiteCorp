@@ -199,17 +199,17 @@ h3 {
 
 /* line 132, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 .bg-img-1 {
-  background-image: url(./assets/slider/slider-img-1.jpg);
+  background-image: url(./slider/slider-img-1.jpg);
 }
 
 /* line 135, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 .bg-img-2 {
-  background-image: url(./assets/background-img/bg-img-2.jpg);
+  background-image: url(./background-img/bg-img-2.jpg);
 }
 
 /* line 138, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 .cta-bg-1 {
-  background-image: url(./assets/background-img/bg-img-3.jpg);
+  background-image: url(./background-img/bg-img-3.jpg);
 }
 
 /* line 143, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
@@ -1839,7 +1839,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area {
-  background-image: url(./assets/banner/testmonial.png);
+  background-image: url(./banner/testmonial.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1915,7 +1915,7 @@ h3 {
 
 /* line 61, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .Information_area {
-  background-image: url(./assets/banner/info_banner.png);
+  background-image: url(./banner/info_banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -2727,7 +2727,7 @@ h3 {
 
 /* line 84, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_offers.scss */
 .video_bg {
-  background-image: url(./assets/video/video.png);
+  background-image: url(./video/video.png);
 }
 
 /* line 87, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_offers.scss */
@@ -3479,7 +3479,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(./assets/banner/bradcam.png);
+  background-image: url(./banner/bradcam.png);
 }
 
 
@@ -4211,12 +4211,12 @@ h3 {
 
 /* line 36, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_emergency_contact.scss */
 .emergency_bg_1 {
-  background-image: url(./assets/banner/emergency-1.png);
+  background-image: url(./banner/emergency-1.png);
 }
 
 /* line 39, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_emergency_contact.scss */
 .emergency_bg_2 {
-  background-image: url(./assets/banner/emergency-2.png);
+  background-image: url(./banner/emergency-2.png);
 }
 
 /*=================== contact banner start ====================*/
@@ -5320,7 +5320,7 @@ h6 {
 
 /* line 798, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(./assets/elements/primary-check.png) no-repeat center center/cover;
+  background: url(./elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5362,7 +5362,7 @@ h6 {
 
 /* line 835, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(./assets/elements/success-check.png) no-repeat center center/cover;
+  background: url(./elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5410,7 +5410,7 @@ h6 {
 
 /* line 876, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(./assets/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(./elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5452,7 +5452,7 @@ h6 {
 
 /* line 913, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(./assets/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(./elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5494,7 +5494,7 @@ h6 {
 
 /* line 950, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(./assets/elements/success-radio.png) no-repeat center center/cover;
+  background: url(./elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5542,7 +5542,7 @@ h6 {
 
 /* line 991, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(./assets/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(./elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 
