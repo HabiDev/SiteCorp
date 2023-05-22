@@ -38,3 +38,25 @@
 !/app/assets/builds/.keep
 
 /node_modules
+
+# Environment variables should be ignored
+/.env
+/.deploy.*.env
+
+# Local Procfile can be different from remote
+/Procfile
+
+# Database settings
+/config/database.yml
+
+# Deploy settings
+/shared
+
+#DS Store files 
+/app/assets/images/.DS_Store
+/.DS_Store
+/app/.DS_Store
+/app/assets/.DS_Store
+
+# IDE Files 
+/.vscode
