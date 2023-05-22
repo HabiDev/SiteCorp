@@ -65,7 +65,7 @@ deploy_user = ENV.fetch('DEPLOY_USER')
 deploy_password = ENV.fetch('DEPLOY_PASSWORD')
 ssh_port = ENV.fetch('SSH_PORT').to_i
 branch = 'master'
-roles = ['web', 'app', 'db', 'production']
+roles = ['web', 'app', 'production']
 
 set :deployer_user, deploy_user
 set :use_sudo, true
