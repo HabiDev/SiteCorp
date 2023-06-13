@@ -74,7 +74,7 @@ Rails.application.configure do
       port:                 465,
       # domain:               'yandex.ru',
       user_name:            'mail.mrs@yandex.ru',
-      password:             'Kazan2021$',
+      password:             'twhjlphtfwmtocwd',
       authentication:       'plain',
       tsl: true,
       # ssl: true,
