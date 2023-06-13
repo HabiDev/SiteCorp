@@ -1812,9 +1812,9 @@ h3 {
 
 /* line 30, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote .form_wrap form textarea {
-  height: 40px !important;
+  height: 90px !important;
   resize: none;
-  margin-top: 70px;
+  margin-top: 0px;
 }
 
 /* line 35, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */

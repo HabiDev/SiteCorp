@@ -14,6 +14,25 @@ Rails.application.configure do
   # Show full error reports.
   config.consider_all_requests_local = true
 
+  #ActionMailer
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+#   config.action_mailer.default_url_options = { host: 'www.yandex.ru' }
+  config.action_mailer.perform_deliveries    = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.yandex.ru',
+    port:                 587,
+    # domain:               'yandex.ru',
+    user_name:            'mail.mrs@yandex.ru',
+    password:             'Kazan2021$',
+    authentication:       'plain',
+    tsl: true,
+    # ssl: true,
+    enable_starttls_auto: true
+ }
+
+
   # Enable server timing
   config.server_timing = true
 

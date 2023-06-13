@@ -1,0 +1,5 @@
+= form_with url: contact_quote_send_path, method: :get do |f|
+  = f.text_field :name, placeholder: "Ваше Имя"
+  = f.email_field :email, placeholder: "e-mail"
+  = f.text_area :message, size: "30x10", placeholder: "Текст сообщения"
+  = f.button "Отправить", type: "submit", class: 'boxed-btn3' 
