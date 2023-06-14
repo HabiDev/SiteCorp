@@ -70,14 +70,14 @@ Rails.application.configure do
     config.action_mailer.raise_delivery_errors = true
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
-      address:              'smtp.yandex.ru',
-      port:                 587,
-      # domain:               'yandex.ru',
-      user_name:            'mail.mrs@yandex.ru',
-      password:             'twhjlphtfwmtocwd',
+      address:              'smtp.rambler.ru',
+      port:                 465,
+      domain:               "make-retail.ru",
       authentication:       'plain',
-      tsl: true,
-      # ssl: true,
+      user_name:            ENV["MAIL_USER_NAME"],
+      password:             ENV["MAIL_PASSWORD"],
+      # tls: true,
+      ssl: true,
       enable_starttls_auto: true
     }
 

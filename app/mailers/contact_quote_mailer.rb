@@ -1,5 +1,5 @@
 class ContactQuoteMailer < ApplicationMailer
-  default from: 'habfanis@gmail.com'
+  default from: 'mail.mrs@yandex.ru'
    
   def contact_quote_send(name, email, message)
      @message = message

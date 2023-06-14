@@ -16,20 +16,21 @@ Rails.application.configure do
 
   #ActionMailer
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-#   config.action_mailer.default_url_options = { host: 'www.yandex.ru' }
+  # config.action_mailer.default_url_options = { host: 'www.rambler.ru' }
   config.action_mailer.perform_deliveries    = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address:              'smtp.yandex.ru',
-    port:                 587,
-    # domain:               'yandex.ru',
-    user_name:            'mail.mrs@yandex.ru',
-    password:             'Kazan2021$',
+    enable_starttls_auto: true,
+    address:              'smtp.rambler.ru',
+    port:                 465,
+    domain:               "127.0.0.1:3000",
     authentication:       'plain',
-    tsl: true,
-    # ssl: true,
-    enable_starttls_auto: true
+    user_name:            ENV["MAIL_USER_NAME"],
+    password:             ENV["MAIL_PASSWORD"],
+    tls: true,
+    ssl: true
+    
  }
 
 
