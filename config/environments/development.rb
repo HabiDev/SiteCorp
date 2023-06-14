@@ -22,9 +22,9 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     enable_starttls_auto: true,
-    address:              'smtp.rambler.ru',
+    address:              'smtp.mail.ru',
     port:                 465,
-    domain:               "127.0.0.1:3000",
+    # domain:               "127.0.0.1:3000",
     authentication:       'plain',
     user_name:            ENV["MAIL_USER_NAME"],
     password:             ENV["MAIL_PASSWORD"],
@@ -57,7 +57,7 @@ Rails.application.configure do
   config.active_storage.service = :local
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  # config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
 

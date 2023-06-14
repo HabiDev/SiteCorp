@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   get 'service_adaptation', to: 'static_pages#service_adaptation'
   get 'service_consalting', to: 'static_pages#service_consalting'
   get 'contact_quote_send', to: 'static_pages#contact_quote_send'
+  get 'feedback_send', to: 'static_pages#feedback_send'
+  get 'subscribe_send', to: 'static_pages#subscribe_send'
   
 end

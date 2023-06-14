@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "mail.mrs@yandex.ru"
+  default from: "site@make-retail.ru"
   layout "mailer"
 end

@@ -53,10 +53,13 @@
           .footer_widget
             h3.footer_title
               | Подписаться
-            form[action="#" class="newsletter_form"]
-              input[type="text" placeholder="Введите ваш e-mail"]
-              button[type="submit"]
-                | Подписаться
+            = form_with url: subscribe_send_path, method: :get, class: 'newsletter_form' do |f|
+              = f.text_field :email, placeholder: "Введите ваш e-mail"  
+              = f.button "Подписаться", type: "submit"
+            / form[action="#" class="newsletter_form"]
+            /   input[type="text" placeholder="Введите ваш e-mail"]
+            /   button[type="submit"]
+            /     | Подписаться
             p.newsletter_text
               
   .copy-right_text
