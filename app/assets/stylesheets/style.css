@@ -3527,7 +3527,7 @@ h3 {
   color: #fff;
   font-weight: 300;
   margin-bottom: 0;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 @media (max-width: 767px) {
