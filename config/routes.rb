@@ -12,5 +12,5 @@ Rails.application.routes.draw do
   get 'contact_quote_send', to: 'static_pages#contact_quote_send'
   get 'feedback_send', to: 'static_pages#feedback_send'
   get 'subscribe_send', to: 'static_pages#subscribe_send'
-  
+  get 'vacancy', to: 'static_pages#vacancy'
 end

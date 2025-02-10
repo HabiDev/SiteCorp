@@ -6,6 +6,7 @@ class StaticPagesController < ApplicationController
   def service; end
   def service_adaptation; end
   def service_consalting; end
+  def vacancy; end
   
   def contact_quote_send
     name = params[:name]
